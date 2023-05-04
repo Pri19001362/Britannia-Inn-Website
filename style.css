@@ -14,11 +14,16 @@ a{
 }
 
 #banner{
-    padding: 2vh 0;
+    text-align: center;
 }
 
-.CarouselHomeImage{
-    width: 70vw;
+.banner-image{
+    width: 100vw;
+}
+
+
+#cards{
+    text-align: center;
 }
 
 .card-img-top{
