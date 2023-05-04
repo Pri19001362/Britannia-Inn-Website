@@ -1,0 +1,31 @@
+nav{
+    padding: 25px 0;
+}
+
+.nav-link{
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+.nav-link:hover{
+    color: rgb(0, 73, 0);
+}
+
+a{
+    margin: 0 30px;
+}
+
+.CarouselHomeImage{
+    width: 70vw;
+}
+
+.card-img-top{
+    border-radius: 0%;
+    min-height: 40%;
+    max-height: 40%;
+}
+
+.card-title{
+    color: rgb(27, 27, 27);
+}
