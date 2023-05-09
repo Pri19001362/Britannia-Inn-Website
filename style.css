@@ -32,6 +32,7 @@ a{
 .card{
     margin-top: 5%;
     margin-bottom: 5%;
+    border: 0;
 }
 
 .card-img-top{
@@ -43,7 +44,11 @@ a{
 .card-body{
     background-color: #145422;
     color: white;
-    height: 20vh;
+}
+
+#PubCards{
+    text-align: center;
+    width: fit-content;
 }
 
 .btn{
