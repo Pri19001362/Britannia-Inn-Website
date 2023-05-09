@@ -33,6 +33,7 @@ a{
     margin-top: 5%;
     margin-bottom: 5%;
     border: 0;
+    text-align: center;
 }
 
 .card-img-top{
@@ -44,10 +45,6 @@ a{
 .card-body{
     background-color: #145422;
     color: white;
-}
-
-#PubCards{
-    text-align: center;
 }
 
 #skittle{
