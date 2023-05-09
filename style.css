@@ -22,19 +22,30 @@ a{
 }
 
 
+
 #cards{
     text-align: center;
+    margin-bottom: 5vh;
+}
+
+.card{
+    width: 18rem;
 }
 
 .card-img-top{
     border-radius: 0%;
-    min-height: 40%;
-    max-height: 40%;
+    min-height: 20vh;
+    max-height: 20vh;
 }
 
 .card-body{
     background-color: #145422;
     color: white;
+    height: 20vh;
+}
+
+.btn{
+    margin-top: 2vh;
 }
 
 footer{
