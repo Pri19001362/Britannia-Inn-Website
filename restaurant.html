@@ -55,6 +55,7 @@
            <div class="container">
             <div class="row d-flex justify-content-evenly align-items-center">
               
+              <!--Burger Menu-->
               <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="card d-flex justify-content-center">
                   <img src="Images/Pub.jpg" class="card-img-top" alt="inside pub">
@@ -103,52 +104,249 @@
                 </div>
               </div>
 
+              <!--Sides Menu-->
               <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="card d-flex justify-content-center">
                   <img src="Images/Pub.jpg" class="card-img-top" alt="inside pub">
                   <div class="card-body">
-                    <h5 class="card-title">Burgers</h5>
-                    <a href="#" class="btn btn-primary">Menu</a>
+                    <h5 class="card-title">Sides</h5>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sidesMenu">Menu</a>
                   </div>
                 </div>
               </div>
 
-              <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="card d-flex justify-content-center">
-                  <img src="Images/Pub.jpg" class="card-img-top" alt="inside pub">
-                  <div class="card-body">
-                    <h5 class="card-title">Burgers</h5>
-                    <a href="#" class="btn btn-primary">Menu</a>
+              <div class="modal fade" id="sidesMenu" tabindex="-1" aria-labelledby="sidesMenuLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="sidesMenuLabel">Sides Menu</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Item</th>
+                            <th scope="col">Price</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Onion Rings</td>
+                            <td>£5.50</td>
+                          </tr>
+                          <tr>
+                            <td>Chicken Wings</td>
+                            <td>£8.99</td>
+                          </tr>
+                          <tr>
+                            <td>Fries</td>
+                            <td>£7.50</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
                   </div>
                 </div>
               </div>
 
+
+              <!--Pizza Menu-->
               <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="card d-flex justify-content-center">
                   <img src="Images/Pub.jpg" class="card-img-top" alt="inside pub">
                   <div class="card-body">
-                    <h5 class="card-title">Burgers</h5>
-                    <a href="#" class="btn btn-primary">Menu</a>
+                    <h5 class="card-title">Pizzas</h5>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#pizzaMenu">Menu</a>
                   </div>
                 </div>
               </div>
 
-              <div class="col-lg-4 col-md-6 col-sm-12">
-                <div class="card d-flex justify-content-center">
-                  <img src="Images/Pub.jpg" class="card-img-top" alt="inside pub">
-                  <div class="card-body">
-                    <h5 class="card-title">Burgers</h5>
-                    <a href="#" class="btn btn-primary">Menu</a>
+              <div class="modal fade" id="pizzaMenu" tabindex="-1" aria-labelledby="pizzaMenuLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="pizzaMenuLabel">Pizza Menu</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Item</th>
+                            <th scope="col">Price</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Pepperoni Pizza</td>
+                            <td>£19.99</td>
+                          </tr>
+                          <tr>
+                            <td>Hawaiian Pizza</td>
+                            <td>£21.50</td>
+                          </tr>
+                          <tr>
+                            <td>Veggie Pizza</td>
+                            <td>£23</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
                   </div>
                 </div>
               </div>
 
+              <!--Roast Dinner-->
               <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="card d-flex justify-content-center">
                   <img src="Images/Pub.jpg" class="card-img-top" alt="inside pub">
                   <div class="card-body">
-                    <h5 class="card-title">Burgers</h5>
-                    <a href="#" class="btn btn-primary">Menu</a>
+                    <h5 class="card-title">Roast Dinners</h5>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#roastMenu">Menu</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal fade" id="roastMenu" tabindex="-1" aria-labelledby="roastMenuLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="roastMenuLabel">Roast Dinner Menu</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Item</th>
+                            <th scope="col">Price</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Roast Dinner</td>
+                            <td>£28</td>
+                          </tr>
+                          <tr>
+                            <td>Small Roast</td>
+                            <td>£23.50</td>
+                          </tr>
+                          <tr>
+                            <td>Britannia Roast</td>
+                            <td>£35</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <!--Alcoholic Drinks-->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card d-flex justify-content-center">
+                  <img src="Images/Pub.jpg" class="card-img-top" alt="inside pub">
+                  <div class="card-body">
+                    <h5 class="card-title">Alcoholic Drinks</h5>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#alcoholMenu">Menu</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal fade" id="alcoholMenu" tabindex="-1" aria-labelledby="alcoholMenuLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="alcoholMenuLabel">Alcohol Menu</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Item</th>
+                            <th scope="col">Price</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Cider</td>
+                            <td>£16.50</td>
+                          </tr>
+                          <tr>
+                            <td>Gin & Tonic</td>
+                            <td>£15</td>
+                          </tr>
+                          <tr>
+                            <td>Vodka</td>
+                            <td>£21.99</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!--Drinks-->
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card d-flex justify-content-center">
+                  <img src="Images/Pub.jpg" class="card-img-top" alt="inside pub">
+                  <div class="card-body">
+                    <h5 class="card-title">Drinks</h5>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#drinksMenu">Menu</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal fade" id="drinksMenu" tabindex="-1" aria-labelledby="drinksMenuLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="drinksMenuLabel">Drinks Menu</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Item</th>
+                            <th scope="col">Price</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Fanta</td>
+                            <td>£12.99</td>
+                          </tr>
+                          <tr>
+                            <td>Cola</td>
+                            <td>£13.50</td>
+                          </tr>
+                          <tr>
+                            <td>Seven Up</td>
+                            <td>£13.50</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
                   </div>
                 </div>
               </div>
