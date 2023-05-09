@@ -53,9 +53,57 @@
         <!--Bootstrap grid cards-->
         <section id="cards">
            <div class="container">
-            <div class="row row-cols-1 row-cols-md-3 g-4 d-flex justify-content-evenly align-items-center">
+            <div class="row d-flex justify-content-evenly align-items-center">
               
-              <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="col-lg-4 col-md-6 col-sm-12">
+                <div class="card d-flex justify-content-center">
+                  <img src="Images/Pub.jpg" class="card-img-top" alt="inside pub">
+                  <div class="card-body">
+                    <h5 class="card-title">Burgers</h5>
+                    <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#burgerMenu">Menu</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="modal fade" id="burgerMenu" tabindex="-1" aria-labelledby="burgerMenuLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h1 class="modal-title fs-5" id="burgerMenuLabel">Burger Menu</h1>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Item</th>
+                            <th scope="col">Price</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>Cheese Burger</td>
+                            <td>£15.50</td>
+                          </tr>
+                          <tr>
+                            <td>Beef Burger</td>
+                            <td>£13</td>
+                          </tr>
+                          <tr>
+                            <td>Veggie Burger</td>
+                            <td>£17.50</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="card d-flex justify-content-center">
                   <img src="Images/Pub.jpg" class="card-img-top" alt="inside pub">
                   <div class="card-body">
@@ -65,7 +113,7 @@
                 </div>
               </div>
 
-              <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="card d-flex justify-content-center">
                   <img src="Images/Pub.jpg" class="card-img-top" alt="inside pub">
                   <div class="card-body">
@@ -75,7 +123,7 @@
                 </div>
               </div>
 
-              <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="card d-flex justify-content-center">
                   <img src="Images/Pub.jpg" class="card-img-top" alt="inside pub">
                   <div class="card-body">
@@ -85,7 +133,7 @@
                 </div>
               </div>
 
-              <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="card d-flex justify-content-center">
                   <img src="Images/Pub.jpg" class="card-img-top" alt="inside pub">
                   <div class="card-body">
@@ -95,17 +143,7 @@
                 </div>
               </div>
 
-              <div class="col-lg-3 col-md-6 col-sm-12">
-                <div class="card d-flex justify-content-center">
-                  <img src="Images/Pub.jpg" class="card-img-top" alt="inside pub">
-                  <div class="card-body">
-                    <h5 class="card-title">Burgers</h5>
-                    <a href="#" class="btn btn-primary">Menu</a>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-lg-3 col-md-6 col-sm-12">
+              <div class="col-lg-4 col-md-6 col-sm-12">
                 <div class="card d-flex justify-content-center">
                   <img src="Images/Pub.jpg" class="card-img-top" alt="inside pub">
                   <div class="card-body">
