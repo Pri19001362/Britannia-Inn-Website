@@ -28,12 +28,13 @@ a{
 
 .card-img-top{
     border-radius: 0%;
-    min-height: 40%;
-    max-height: 40%;
+    min-height: 20vh;
+    max-height: 20vh;
 }
 
-.card-title{
-    color: rgb(27, 27, 27);
+.card-body{
+    background-color: #145422;
+    color: white;
 }
 
 footer{
