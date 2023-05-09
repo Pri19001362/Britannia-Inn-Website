@@ -15,21 +15,23 @@ a{
 
 #banner{
     text-align: center;
+    margin-top: 2%;
 }
 
 .banner-image{
-    width: 100vw;
+    width: 40vw;
 }
-
 
 
 #cards{
     text-align: center;
-    margin-bottom: 5vh;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
 }
 
 .card{
-    width: 18rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .card-img-top{
@@ -46,6 +48,12 @@ a{
 
 .btn{
     margin-top: 2vh;
+    background-color: #C7FFD0;
+    color: black;
+}
+
+.btn:hover{
+    background-color: #2e9140;
 }
 
 footer{
