@@ -37,8 +37,8 @@ a{
 
 .card-img-top{
     border-radius: 0%;
-    min-height: 20vh;
-    max-height: 20vh;
+    min-height: 25vh;
+    max-height: 25vh;
 }
 
 .card-body{
