@@ -72,8 +72,23 @@
                     <div class="col-sm-6">
                       <div class="card">
                         <div class="card-body">
-                          <h5 class="card-title">Special title treatment</h5>
-                          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                          <h5 class="card-title">Please leave a review and let us know how your experience at the pub was!</h5>
+                          <!--Form for review-->
+                          <form>
+                          <div class="mb-3">
+                            <label for="emailFormInput" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="emailFormInput" placeholder="name@example.com">
+                          </div>
+                          <div class="mb-3">
+                            <label for="reviewTextarea" class="form-label"></label>
+                            <textarea class="form-control" id="reviewTextarea" rows="6" placeholder="Please let us know what you think!"></textarea>
+                          </div>
+                          <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="confirmCheck">
+                            <label class="form-check-label" for="confirmCheck">Confirm</label>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Submit Review</button>
+                        </form>
                         </div>
                       </div>
                     </div>
