@@ -29,9 +29,6 @@ a{
     margin-top: 5vh;
 }
 
-.form-check{
-    text-align: left;
-}
 
 .card{
     margin-top: 5%;
@@ -49,6 +46,10 @@ a{
 .card-body{
     background-color: #145422;
     color: white;
+}
+
+.form-check{
+    text-align: left;
 }
 
 #skittle{
