@@ -12,6 +12,14 @@ nav{
     color: rgb(0, 73, 0);
 }
 
+#logo{
+    color: #000000;
+}
+
+#dark{
+    color: #000000;
+}
+
 a{
     margin: 0 4vh;
     text-align: center;
