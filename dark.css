@@ -36,6 +36,10 @@ body{
     margin-top: 5vh;
 }
 
+.row{
+    background-color: rgb(172, 172, 172);
+}
+
 .card{
     margin-top: 5%;
     margin-bottom: 5%;
