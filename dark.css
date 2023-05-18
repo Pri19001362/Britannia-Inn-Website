@@ -1,0 +1,30 @@
+.nav-link{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+}
+
+.nav-link:hover{
+    color: rgb(0, 73, 0);
+}
+
+.card-body{
+    background-color: #145422;
+    color: white;
+}
+
+.btn{
+    margin-top: 2vh;
+    background-color: #C7FFD0;
+    color: black;
+    border: 0;
+}
+
+.btn:hover{
+    background-color: #2e9140;
+}
+
+footer{
+    background-color: #0C3710;
+    color: white;
+}
