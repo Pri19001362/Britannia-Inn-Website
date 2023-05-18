@@ -1,3 +1,7 @@
+body{
+    background-color: gray;
+}
+
 .nav-link{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
