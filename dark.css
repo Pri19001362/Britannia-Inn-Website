@@ -66,6 +66,19 @@ body{
     color: rgb(161, 161, 161);
 }
 
+.modal-content{
+    background-color: #071f09;
+    color: rgb(161, 161, 161);
+}
+
+.table{
+    color: rgb(161, 161, 161);
+}
+
+.btn-close{
+    background-color: rgb(161, 161, 161);
+}
+
 .form-check{
     text-align: left;
 }
