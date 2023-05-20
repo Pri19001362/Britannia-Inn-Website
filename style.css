@@ -82,6 +82,11 @@ a{
     background-color: #2e9140;
 }
 
+#map{
+    height: 100%;
+    width: 100%;
+}
+
 footer{
     background-color: #0C3710;
     color: white;

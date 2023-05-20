@@ -111,6 +111,11 @@ body{
     background-color: #2e9140;
 }
 
+#map{
+    height: 100%;
+    width: 100%;
+}
+
 footer{
     background-color: #071f09;
     color: rgb(211, 209, 209);
