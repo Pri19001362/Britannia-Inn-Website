@@ -58,6 +58,10 @@ a{
     color: white;
 }
 
+#contactInfo{
+    font-size: large;
+}
+
 .form-check{
     text-align: left;
 }

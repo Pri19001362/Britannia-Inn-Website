@@ -66,6 +66,10 @@ body{
     color: rgb(161, 161, 161);
 }
 
+#contactInfo{
+    font-size: large;
+}
+
 .modal-content{
     background-color: #071f09;
     color: rgb(161, 161, 161);
