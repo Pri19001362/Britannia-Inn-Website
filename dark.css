@@ -1,3 +1,4 @@
+/*Nav dark mode styling*/
 nav{
     background-color: #1e381a;
 }
@@ -12,6 +13,7 @@ nav{
     color: rgb(0, 73, 0);
 }
 
+/*Icon dark mode styling*/
 #logo{
     color: rgb(180, 180, 180);
 }
@@ -20,11 +22,13 @@ nav{
     color: rgb(180, 180, 180);
 }
 
+/*List dark mode styling*/
 a{
     margin: 0 4vh;
     text-align: center;
 }
 
+/*Banner dark mode styling*/
 #banner{
     text-align: center;
     margin-top: 2%;
@@ -34,10 +38,12 @@ a{
     width: 40vw;
 }
 
+/*Main body dark mode styling*/
 body{
     background-color: rgb(172, 172, 172);
 }
 
+/*Container, card and row dark mode styling*/
 .container{
     text-align: center;
     margin-bottom: 10vh;
@@ -66,6 +72,7 @@ body{
     color: rgb(161, 161, 161);
 }
 
+/*Card content/modal dark mode styling*/
 #contactInfo{
     font-size: large;
 }
@@ -100,6 +107,7 @@ body{
     height: 70%;
 }
 
+/*Button dark mode styling*/
 .btn{
     margin-top: 2vh;
     background-color: #539b5f;
@@ -111,16 +119,19 @@ body{
     background-color: #2e9140;
 }
 
+/*Google maps dark mode styling*/
 #map{
     height: 100%;
     width: 100%;
 }
 
+/*Footer dark mode styling*/
 footer{
     background-color: #071f09;
     color: rgb(211, 209, 209);
 }
 
+/*Paragraph dark mode styling*/
 p{
     margin: 0;
 }

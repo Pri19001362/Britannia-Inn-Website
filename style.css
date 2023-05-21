@@ -1,3 +1,4 @@
+/*Nav styling*/
 nav{
     background-color: #47843D;
 }
@@ -12,6 +13,7 @@ nav{
     color: rgb(0, 73, 0);
 }
 
+/*Icon styling*/
 #logo{
     color: #000000;
 }
@@ -20,11 +22,13 @@ nav{
     color: #000000;
 }
 
+/*list styling*/
 a{
     margin: 0 4vh;
     text-align: center;
 }
 
+/*Banner styling*/
 #banner{
     text-align: center;
     margin-top: 2%;
@@ -34,6 +38,7 @@ a{
     width: 40vw;
 }
 
+/*Container and card styling*/
 .container{
     text-align: center;
     margin-bottom: 10vh;
@@ -58,6 +63,7 @@ a{
     color: white;
 }
 
+/*Card content styling*/
 #contactInfo{
     font-size: large;
 }
@@ -71,6 +77,7 @@ a{
     height: 70%;
 }
 
+/*Button styling*/
 .btn{
     margin-top: 2vh;
     background-color: #C7FFD0;
@@ -82,16 +89,19 @@ a{
     background-color: #2e9140;
 }
 
+/*Google maps styling*/
 #map{
     height: 100%;
     width: 100%;
 }
 
+/*Footer styling*/
 footer{
     background-color: #0C3710;
     color: white;
 }
 
+/*Paragraph styling*/
 p{
     margin: 0;
 }

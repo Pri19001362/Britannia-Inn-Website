@@ -1,4 +1,4 @@
-/*Dark Mode*/
+/*Dark Mode function*/
 
 function changeCSS(){
     var theme = document.getElementById("theme");
@@ -13,6 +13,7 @@ function changeCSS(){
     }
 }
 
+/*Dark mode to work across all pages*/
 var savedTheme = localStorage.getItem("theme");
 if(savedTheme === "dark"){
     document.getElementById("theme").setAttribute("href", "dark.css");
